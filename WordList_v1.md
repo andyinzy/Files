@@ -2,7 +2,7 @@
 
 
 | **specify** ||　详列，指定  |  
-| :-----: | :--------: | :------: |  
+| :-----: | :--------: | :------: |  :------: | 
 | **peripheral** | [pə'rɪf(ə)rəl] | **外部的**  |  
 | **internal**  |  | | 
 | **marco**| | 　宏指令  |
@@ -69,6 +69,32 @@
 |**complement**||补集，补码
 |**offset**||偏移量
 |**operand**||操作数，运算对象
+|**  identical **|**   **|**  完全相等的 **|
+|** interchangeably  **|**   **|**可互换的  **|
+|** symmetric  **|**   **|**  对称的 **|
+|**  suspend **|**   **|**  暂停，中止 **|
+|** semaphore  **|** ['semə.fɔr]  **|** 发信号，信号量  **|
+|** synchronized  **|**   **|** 同步  **|
+|**  asynchronized **|**   **|**  异步 **|
+|** mutex  **|**   **|**  互斥 **|
+|**  utilize **|**   **|**  利用，运用 **|
+|** delegate  **|**   ['deləɡət] **|**  委托，授权 **|
+|** deletion  **|** [dɪ'liʃ(ə)n]  **|** 删除 **|
+|**  allocate **|**  ['ælə.keɪt]  **|** 分配  **|
+|** unicore  **|**['junɪ.] ==single core  **|** 单核  **|
+|** static  **|**  [ˈstætik] **|** 静态的  **|
+|** daemon  **|**  ['dimən] **|**  虚拟光驱 **|
+|** particular  **|**  [pər'tɪkjələr]  **|** 特别的，特定的  **|
+|**  suspension **|**  [sə'spenʃ(ə)n]  **|** 悬挂  **|
+|** illustrate  **|**  ['ɪlə.streɪt] **|** 举例说明，  **|** > To better illustrate all this, Sam put me in his address position and then in his position at the top of his backswing.**|
+|** illustration  **|**   **|** 插图，图解  **|
+|**   **|**   **|**   **|
+|**   **|**   **|**   **|
+|**   **|**   **|**   **|
+|**   **|**   **|**   **|
+|**   **|**   **|**   **|
+|**   **|**   **|**   **|
+
 **which has been found in:**
 https://wenku.baidu.com/view/c3e2b5c658fb770bf68a558b.html
 
