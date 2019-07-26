@@ -1,18 +1,18 @@
 ## Specify List
 
 
-| **specify** ||　详列，指定  |  
+| **specify** |          |　详列，指定  |          |
 | :-----: | :--------: | :------: |  :------: | 
-| **peripheral** | [pə'rɪf(ə)rəl] | **外部的**  |  
-| **internal**  |  | | 
-| **marco**| | 　宏指令  |
-| **affinity** ||  密切联系  
-| **infinite loop/continuous loop** | | 无限循环  
-| **vanilla** | [və'nɪlə] | 普通的  
-| **facilitate**  | | | 
-| **privilege**  | | | 
-| **indicate**  | | | 
-| **allocate**  | | | 
+| **peripheral** | [pə'rɪf(ə)rəl] | **外部的**  ||  
+| **internal**  |  | | | 
+| **marco**| | 　宏指令  || 
+| **affinity** ||  密切联系  | | 
+| **infinite loop/continuous loop** | | 无限循环  | | 
+| **vanilla** | [və'nɪlə] | 普通的  | 
+| **facilitate**  | | | | 
+| **privilege**  | | | | 
+| **indicate**  | | | | 
+| **allocate**  | | | | 
 | **argument** | | 参数，争辩 == parameter == variable  
 | **Single Chip Microcomputer**|  == | SCM  
 | **MicroController Unit** | ==|  MCU
