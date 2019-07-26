@@ -88,9 +88,9 @@
 |**  suspension **|**  [sə'spenʃ(ə)n]  **|** 悬挂  **|
 |** illustrate  **|**  ['ɪlə.streɪt] **|** 举例说明，  **|** > To better illustrate all this, Sam put me in his address position and then in his position at the top of his backswing.**|
 |** illustration  **|**   **|** 插图，图解  **|
-|**   **|**   **|**   **|
-|**   **|**   **|**   **|
-|**   **|**   **|**   **|
+|**  corresponding **|** [.kɔrə'spɑnd)  **|**  对应 **|
+|**  assert **|** [ə'sɜrt]  **|** 断言，宣称  **|
+|** set  **|**   **|** 集合  **| ** > Such a cluster of buttons is called a "connected component" in a "random graph" , where a graph is just a set of nodes connected by lines. **|
 |**   **|**   **|**   **|
 |**   **|**   **|**   **|
 |**   **|**   **|**   **|
