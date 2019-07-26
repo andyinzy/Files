@@ -61,8 +61,8 @@ errCOULD_NOT_ALLOCATE_REQUIRED_MEMORY： 任务创建失败，堆内存不足。
 
 ------
 <center>**用法**</center>
-```C++
 
+```C++
 /* 创建任务. */
 void vTaskCode( void * pvParameters )
 {
@@ -71,18 +71,17 @@ void vTaskCode( void * pvParameters )
        /* 任务代码放在这里 */
     }
 }
- 
 /* 创建任务函数 */
 void vOtherFunction( void )
 {
     static unsigned char ucParameterToPass;
     xTaskHandlexHandle;
- 
+    
      /* 创建任务，存储句柄。注：传递的参数ucParameterToPass必须和任务具有相同的生存周期，
         因此这里定义为静态变量。如果它只是一个自动变量，可能不会有太长的生存周期，因为
                 中断和高优先级任务可能会用到它。 */
      xTaskCreate( vTaskCode, "NAME", STACK_SIZE,&ucParameterToPass, tskIDLE_PRIORITY, &xHandle );
- 
+     
      /* 使用句柄删除任务. */
     if( xHandle !=NULL )
     {
@@ -90,10 +89,12 @@ void vOtherFunction( void )
     }
 }
 ```
+
 ___
+
 任务控制API
  > void vTaskDelay( portTickTypexTicksToDelay )
 
-    调用vTaskDelay()函数后，任务会进入阻塞状态，持续时间由vTaskDelay()函数的参数xTicksToDelay指定，单位是系统节拍时钟周期。常量portTICK_RATE_MS 用来辅助计算真实时间，此值是系统节拍时钟中断的周期，单位是毫秒。在文件FreeRTOSConfig.h中，宏INCLUDE_vTaskDelay 必须设置成1，此函数才能有效。
+ - 调用vTaskDelay()函数后，任务会进入阻塞状态，持续时间由vTaskDelay()函数的参数xTicksToDelay指定，单位是系统节拍时钟周期。常量portTICK_RATE_MS 用来辅助计算真实时间，此值是系统节拍时钟中断的周期，单位是毫秒。在文件FreeRTOSConfig.h中，宏INCLUDE_vTaskDelay 必须设置成1，此函数才能有效。
 
-    vTaskDelay()指定的延时时间是从调用vTaskDelay()后开始计算的相对时间。比如vTaskDelay(100)，那么从调用vTaskDelay()后，任务进入阻塞状态，经过100个系统时钟节拍周期，任务解除阻塞。因此，vTaskDelay()并不适用与周期性执行任务的场合。此外，其它任务和中断活动，会影响到vTaskDelay()的调用（比如调用前高优先级任务抢占了当前任务），因此会影响任务下一次执行的时间。API函数vTaskDelayUntil()可用于固定频率的延时，它用来延时一个绝对时间。
+ - vTaskDelay()指定的延时时间是从调用vTaskDelay()后开始计算的相对时间。比如vTaskDelay(100)，那么从调用vTaskDelay()后，任务进入阻塞状态，经过100个系统时钟节拍周期，任务解除阻塞。因此，vTaskDelay()并不适用与周期性执行任务的场合。此外，其它任务和中断活动，会影响到vTaskDelay()的调用（比如调用前高优先级任务抢占了当前任务），因此会影响任务下一次执行的时间。API函数vTaskDelayUntil()可用于固定频率的延时，它用来延时一个绝对时间。

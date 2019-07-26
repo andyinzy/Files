@@ -91,7 +91,7 @@
 |**  corresponding **|** [.kɔrə'spɑnd)  **|**  对应 **|
 |**  assert **|** [ə'sɜrt]  **|** 断言，宣称  **|
 |** set  **|**   **|** 集合  **| ** > Such a cluster of buttons is called a "connected component" in a "random graph" , where a graph is just a set of nodes connected by lines. **|
-|**   **|**   **|**   **|
+|**  polling **|**  ['poʊlɪŋ] **|**  轮询 **|
 |**   **|**   **|**   **|
 |**   **|**   **|**   **|
 
